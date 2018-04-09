@@ -1,0 +1,358 @@
+
+/****Home Page****/
+.jumbotron {
+	background-image: url("../img/landscape.jpg");
+	background-size: cover;
+}
+
+.jumbotron p {
+	color: white;
+}
+
+.jumbotron a {
+	color: black;
+}
+
+body {
+  position: relative;
+}
+
+.anchor {
+  padding-top: 0px;
+}
+
+/****Carousal****/
+#carousel-example-generic {
+	padding-top: 30px;
+}
+
+.carousel {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.carousel-caption h3{
+	color: #b8ec0f;
+}
+.carousel-caption p {
+	color: #b8ec0f;
+}
+
+
+/****Contact Page****/
+* { box-sizing: border-box; }
+
+.glyphicon {
+	margin-left: 20px;
+}
+
+#github-logo {
+	padding-top: 30px;
+	display: block;
+  margin: 0 auto;
+}
+
+.contact h1,
+.contact h2 {
+	text-align: left;
+ }
+
+.contact_page{
+	    background-image: url("../img/blazek.jpg");
+/*Add a background image*/
+    background-attachment: fixed;
+/*Give the background a fixed position does it not scroll when you scroll*/
+    background-size: cover;
+/*Have the background cover the entire div section*/
+    color: black;
+/*Change the color of the text on top so it is readable and adjust the padding as needed.*/
+    padding:100px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    height: 100%;
+    margin-top: 60px;
+}
+
+body {
+	color: #162319;
+	padding-top: 40px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+}
+
+/* Form */
+.form-control {
+	width: 100%;
+}
+
+.form-group {
+	padding: 10px;
+}
+
+#message-box {
+	width: 100%;
+}
+
+#name,
+#email,
+#message {
+	text-align: left;
+}
+
+/*Typography*/
+h1,
+h2,
+h3 {
+	font-family: Futura, Helvetica,Ariel, sans-serif;
+}
+
+p,
+li {
+	font-family: Georgia, Cambria, Serif;
+	font-size: 1.3em;
+	font-weight: normal;
+
+
+
+}
+#contact-li {
+	font-weight: 600;
+	font-size: 3vmin;
+
+}
+
+.contact h3 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.contact p {
+ 	font-family: Futura, Georgia, Cambria, Serif;
+}
+
+#visible-comment {
+	color: white;
+}
+
+.short-paragraph h3 {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.short-paragraph p {
+	font-family: Futura, Georgia, Cambria, Serif;
+	text-align: center;
+}
+
+.header {
+	text-align: center;
+	padding-top: 60px;
+}
+
+@media only screen and (max-width: 320px) {
+
+   body { 
+      font-size: 2em; 
+   }
+
+}
+
+/* NAV-BAR */
+.navbar li {
+	font-family: Georgia, Cambria, Serif;
+}
+
+.navbar ul li { 
+	display: inline-block;
+	font-size: 1em;
+	padding-top: 15px;
+}
+
+.navbar ul {
+	float: right;
+}
+
+.navbar {
+	background-color: black;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	min-height: 50px;
+	z-index: 1;
+}
+
+.navbar ul li a {
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	padding: 20px 20px 20px;
+	text-decoration: none;
+	transition: color 600ms;
+	-webkit-transition: color 600ms; /*--Safari */
+}
+
+.navbar a:hover {
+	color: #ff0;
+	text-decoration: 
+}
+
+
+/*FAQ*/
+.panel-group{
+	text-align: center;
+}
+
+#faq_header {
+	text-align: center;
+	padding-top: 30px;
+}
+
+#faq{
+	padding-bottom: 70px;
+	margin-top: 50px;
+}
+
+/*Modal inside FAQ*/
+.learn-more {
+  text-align: left;
+  float: left;
+}
+
+.modal-button {
+  float: right;
+  padding: 15px;
+}
+
+#modalembed {
+    height: 500px;
+}
+
+#modalembed {
+    height: 500px;
+    width: 100%;
+    padding: 10px;
+}
+/*About Me Page */
+.main-text{
+	clear: both;
+	padding-bottom: 120px;
+	padding: top right bottom left;
+	position: relative;
+}
+
+#skill-list {
+	margin-left: 50px;
+}
+
+.about-section {
+	margin-top: 50px;
+}
+
+
+/*typography for About Me Page*/
+#about_header {
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+.intro p {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  font-size: 1.9em;
+  font-weight: 100;
+  -webkit-margin-before: 0;
+}
+
+.skills h3 {
+	text-align: center;
+	text-transform: uppercase;
+	
+}
+
+.skills {
+	background-color: #5AD4C2;
+	color: #FFF;
+	padding-top: 15px;
+	padding-bottom: 40px;
+  }
+
+/* Project Name */
+ .projectName {
+    text-transform: uppercase;
+    padding-top: 35px;
+}
+
+.projectName a {
+    color: white;
+}
+
+/* Work */
+#work{
+	padding-top: 50px;
+}
+
+#calc_project {
+	padding: 0px;
+}
+
+
+/* Bottom Footer */
+.footer {
+	position: fixed;
+	left: 0px;
+  bottom: 0px;
+  background-color: #DEDBCA;
+  width: 100%;
+  min-height: 50px;
+ }
+
+
+.footer a:active {
+  color: #ff0000;
+}
+
+.footer a:visited {
+	color: blue;
+}
+
+.social-media{
+	display: inline-block;
+}
+
+/* My Work */
+.work-img {
+  display: block; /* needed to center the element with margin */
+  margin: auto; /* center the image inside the column if it's smaller */
+  max-width: 200px; /* needs to be set to the width of your image files if they are relatively small */
+  position: relative; /* is needed for .info position: absolute to work */
+}
+.info {
+  position: absolute;
+  top: 55%;
+  left: 10%;
+  color:salmon;
+  font-family:Futura;
+  text-transform:uppercase;
+  font-weight:700;
+  letter-spacing:0.5em;
+  line-height:1.6;
+  display: none;
+}
+.proj-title {
+  font-weight:100;
+  color: black;
+}
+
+/* Google Maps */
+
+#map {
+  height: 350px;
+  width: 100%;
+  float: right;
+ 
+}
